@@ -87,7 +87,7 @@ function TaxDeduction({ onCloseModal, setSalaryPopUp }) {
           variant="contained"
           size="big"
           onClick={onCloseModal}
-          add="true"
+          className={"button-add"}
         >
           Добавить
         </Button>

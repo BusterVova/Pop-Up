@@ -9,7 +9,6 @@ const Button = ({
   className,
   children,
   onClick,
-  add,
 }) => {
   const [classes, setClasses] = useState([]);
 
@@ -23,12 +22,9 @@ const Button = ({
     if (className) {
       classesList.push(className);
     }
-    if (add) {
-      classesList.push("button-add");
-    }
 
     setClasses(classesList);
-  }, [size, variant, color, fullWidth, className, add]);
+  }, [size, variant, color, fullWidth, className]);
 
   return (
     <button className={classes.join(" ")} onClick={onClick}>

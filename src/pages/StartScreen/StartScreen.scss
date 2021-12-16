@@ -1,8 +1,6 @@
 .start-screen {
   width: 100vw;
-  // max-width: 1440px;
   height: 100vh;
-  // max-height: 800px;
   background: linear-gradient(
       255.35deg,
       #dc3131 0.83%,
@@ -13,20 +11,3 @@
   justify-content: center;
   align-items: center;
 }
-// @media screen and (max-width: 452px) {
-//   .start-screen {
-//     height: auto;
-//   }
-// }
-// @media screen and (max-width: 320px) {
-//   .start-screen {
-//     width: 451px;
-//     height: 100vh;
-//   }
-// }
-// @media screen and (max-width: 452px) {
-//   .start-screen {
-//     width: 452px;
-//     height: 100vh;
-//   }
-// }

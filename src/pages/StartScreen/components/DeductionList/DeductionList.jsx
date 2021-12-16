@@ -8,18 +8,15 @@ function DeductionList({ salary }) {
   const rest = 260000 - equalMonths * tax;
 
   const counter = (i) => {
-    const n = i % 10;
-    return n === 3
-      ? `в ${i}-ий год`
-      : i === 2
-      ? `во ${i}-ой год`
-      : i === 6
-      ? `в ${i}-ой год`
-      : i === 7
-      ? `в ${i}-ой год`
-      : i === 8
-      ? `в ${i}-ой год`
-      : `в ${i}-ый год`;
+    const cases = {
+      default: `в ${i}-ый`,
+      2: "во 2-ой",
+      3: "в 3-ий",
+      6: "в 6-ой",
+      7: "в 7-ой",
+      8: "в 8-ой",
+    };
+    return cases[i] ? cases[i] + " год" : cases.default + " год";
   };
   return (
     <div>
