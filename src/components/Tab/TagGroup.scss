@@ -1,0 +1,13 @@
+.tag {
+  &-container {
+    display: flex;
+    position: relative;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 452px) {
+  .tag-container {
+    display: flex;
+    position: relative;
+    margin-top: 24px;
+  }
+}

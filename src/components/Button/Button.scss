@@ -1,0 +1,60 @@
+.button {
+  &-full {
+    width: 100%;
+  }
+
+  &-contained {
+    padding: 12px 70px;
+    background: linear-gradient(
+        255.35deg,
+        #dc3131 0.83%,
+        rgba(255, 79, 79, 0) 108.93%
+      ),
+      #ff5e56;
+    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+    color: white;
+    cursor: pointer;
+    /* filter: drop-shadow(0px 0px 44px #cfdae7); */
+    border-radius: 6px;
+  }
+
+  &-small {
+    padding: 12px 24px;
+  }
+
+  &-big {
+    padding: 16px 32px;
+  }
+
+  &-primary {
+    border: none;
+    &:hover {
+      background: #ea0029;
+    }
+  }
+
+  &-secondary {
+    border: 1px solid white;
+    &:hover {
+      color: black;
+      background: white;
+    }
+  }
+
+  &-text {
+    border: none;
+    color: #ea0029;
+    background: none;
+    padding: 0;
+
+    &:hover {
+      background: none;
+      color: #f53a31;
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 452px) {
+  .button-add {
+    padding: 12px;
+  }
+}

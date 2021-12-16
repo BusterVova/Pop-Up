@@ -1,0 +1,104 @@
+@font-face {
+  font-family: LabGrotesque;
+  font-weight: 400;
+  src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Regular.ttf");
+}
+
+@font-face {
+  font-family: LabGrotesque;
+  font-weight: 500;
+  src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Medium.ttf");
+}
+
+@font-face {
+  font-family: LabGrotesque;
+  font-weight: 400;
+  src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Thin.ttf");
+}
+
+@font-face {
+  font-family: LabGrotesque;
+  font-weight: 300;
+  src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Light.ttf");
+}
+
+body {
+  font-family: LabGrotesque, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* .start-screen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      255.35deg,
+      #dc3131 0.83%,
+      rgba(255, 79, 79, 0) 108.93%
+    ),
+    #ff5e56;
+} */
+
+/* Pop-Up */
+
+.tax-deducation-default {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.pop-up {
+  position: absolute;
+  width: 552px;
+  height: 476px;
+  top: 120px;
+  left: 444px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.disabled {
+  color: #000000;
+  background: #eef0f2;
+}
+.disabled:hover {
+  background: #dfe3e6;
+}
+
+/* FILLED */
+
+.filled {
+  position: absolute;
+  width: 552px;
+  height: 740px;
+  top: 120px;
+  left: 444px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.tax-deducation-filled {
+  position: relative;
+  width: 1440px;
+  height: 948px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.element_checkbox {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #dfe3e6;
+  border-radius: 6px;
+  display: inline-block;
+  /* position: relative; */
+  margin-right: 14px;
+}
