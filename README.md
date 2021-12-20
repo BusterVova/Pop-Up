@@ -1,1 +1,1 @@
-https://bustervova.github.io/Modal/
+https://bustervova.github.io/Pop-Up/
