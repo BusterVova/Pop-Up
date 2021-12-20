@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Pop-Up/static/css/main.87d84f48.chunk.css",
+    "main.js": "/Pop-Up/static/js/main.f8aca767.chunk.js",
+    "main.js.map": "/Pop-Up/static/js/main.f8aca767.chunk.js.map",
+    "runtime-main.js": "/Pop-Up/static/js/runtime-main.3aa23c4c.js",
+    "runtime-main.js.map": "/Pop-Up/static/js/runtime-main.3aa23c4c.js.map",
+    "static/js/2.c73ca5a9.chunk.js": "/Pop-Up/static/js/2.c73ca5a9.chunk.js",
+    "static/js/2.c73ca5a9.chunk.js.map": "/Pop-Up/static/js/2.c73ca5a9.chunk.js.map",
+    "index.html": "/Pop-Up/index.html",
+    "static/css/main.87d84f48.chunk.css.map": "/Pop-Up/static/css/main.87d84f48.chunk.css.map",
+    "static/js/2.c73ca5a9.chunk.js.LICENSE.txt": "/Pop-Up/static/js/2.c73ca5a9.chunk.js.LICENSE.txt",
+    "static/media/Checkbox.scss": "/Pop-Up/static/media/Checked.db42bbfd.svg",
+    "static/media/App.css": "/Pop-Up/static/media/LabGrotesque-Regular.2b7d5ea4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aa23c4c.js",
+    "static/js/2.c73ca5a9.chunk.js",
+    "static/css/main.87d84f48.chunk.css",
+    "static/js/main.f8aca767.chunk.js"
+  ]
+}
