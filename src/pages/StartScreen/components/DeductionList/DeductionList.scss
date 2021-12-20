@@ -1,4 +1,6 @@
 .deduction-list {
+  max-height: 200px;
+  overflow: auto;
   &__header {
     margin-bottom: 16px;
     font-weight: 500;

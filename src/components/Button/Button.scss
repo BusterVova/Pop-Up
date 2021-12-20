@@ -1,4 +1,5 @@
 .button {
+  transition: 0.3s background;
   &-full {
     width: 100%;
   }
@@ -19,10 +20,14 @@
 
   &-small {
     padding: 12px 24px;
+    font-size: 12px;
   }
 
   &-big {
     padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
   }
 
   &-primary {

@@ -1,6 +1,6 @@
 .input {
   display: block;
-  width: 488px;
+  width: 100%;
   height: 40px;
   border: 1px solid #dfe3e6;
   padding: 8px 10px;
@@ -39,6 +39,9 @@
   border: 1px solid #ea0029;
 }
 .error-label {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
   color: #ea0029;
 }
 
@@ -46,8 +49,7 @@
   .input {
     font-size: 14px;
     line-height: 24px;
-    width: 288px;
-    height: 40px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 453px) and (max-width: 552px) {

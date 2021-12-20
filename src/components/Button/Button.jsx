@@ -22,7 +22,7 @@ const Button = ({
     if (className) {
       classesList.push(className);
     }
-
+    classesList.push("button");
     setClasses(classesList);
   }, [size, variant, color, fullWidth, className]);
 

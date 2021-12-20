@@ -7,16 +7,21 @@ function DeductionList({ salary }) {
   const equalMonths = Math.floor(260000 / tax);
   const rest = 260000 - equalMonths * tax;
 
-  const counter = (i) => {
-    const cases = {
-      default: `в ${i}-ый`,
-      2: "во 2-ой",
-      3: "в 3-ий",
-      6: "в 6-ой",
-      7: "в 7-ой",
-      8: "в 8-ой",
-    };
-    return cases[i] ? cases[i] + " год" : cases.default + " год";
+  const yearsCounter = (i) => {
+    const n = i % 10;
+    return n === 3 && i !== 13
+      ? `в ${i}-ий год`
+      : i === 2
+      ? `во ${i}-ой год`
+      : n === 2 && i !== 12
+      ? `в ${i}-ой год`
+      : n === 6 && i !== 16
+      ? `в ${i}-ой год`
+      : n === 7 && i !== 17
+      ? `в ${i}-ой год`
+      : n === 8 && i !== 18
+      ? `в ${i}-ой год`
+      : `в ${i}-ый год`;
   };
   return (
     <div>
@@ -28,10 +33,11 @@ function DeductionList({ salary }) {
           return (
             <li key={idx} className="list_element">
               <Checkbox
+                defaultValue={true}
                 label={() => (
                   <>
                     {tax} рублей &thinsp;
-                    <span className="grey-text">{counter(idx + 1)}</span>
+                    <span className="grey-text">{yearsCounter(idx + 1)}</span>
                   </>
                 )}
               />
@@ -41,10 +47,13 @@ function DeductionList({ salary }) {
         {rest ? (
           <li className="list_element">
             <Checkbox
+              defaultValue={true}
               label={() => (
                 <>
                   {rest} рублей &thinsp;
-                  <span className="grey-text">{counter(equalMonths + 1)}</span>
+                  <span className="grey-text">
+                    {yearsCounter(equalMonths + 1)}
+                  </span>
                 </>
               )}
             />

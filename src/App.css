@@ -12,12 +12,6 @@
 
 @font-face {
   font-family: LabGrotesque;
-  font-weight: 400;
-  src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Thin.ttf");
-}
-
-@font-face {
-  font-family: LabGrotesque;
   font-weight: 300;
   src: local("LabGrotesque"), url("./assets/fonts/LabGrotesque-Light.ttf");
 }
@@ -35,20 +29,6 @@ body {
 button {
   cursor: pointer;
 }
-
-/* .start-screen {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(
-      255.35deg,
-      #dc3131 0.83%,
-      rgba(255, 79, 79, 0) 108.93%
-    ),
-    #ff5e56;
-} */
-
-/* Pop-Up */
 
 .tax-deducation-default {
   position: relative;
@@ -99,6 +79,5 @@ button {
   border: 1px solid #dfe3e6;
   border-radius: 6px;
   display: inline-block;
-  /* position: relative; */
   margin-right: 14px;
 }
